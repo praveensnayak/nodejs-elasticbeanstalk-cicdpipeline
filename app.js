@@ -15,6 +15,7 @@ app.get("/gamelist",function(req,res){
         {title: "Cricket", creator: "England"},
         {title: "Hockey", creator: "India"},
         {title: "BasketBall", creator: "US"}
+        {title: "BaseBall", creator: "US"}
     ]
       res.render("gamelist", {
         gamesList: games
